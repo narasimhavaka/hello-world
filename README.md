@@ -18,9 +18,9 @@ Command:
 
 `` make run MAC='44:38:39:ff:ef:57' `` 
 
-Test out put:
+Sample run with valid MAC:
 ---------------------------
-[root@ip-172-31-34-145 HCL-Cisco]# make run MAC='44:38:39:ff:ef:57'
+[root@ip-172-31-34-145 HCL-Cisco]# `` make run MAC='44:38:39:ff:ef:57'`` 
 
 docker stop mac-customer
 
@@ -45,10 +45,10 @@ docker logs -f mac-customer
 Cumulus Networks, Inc
 
 
+Sample run with invalid MAC:
+---------------------------
 
-With wrong MAC address:
-
-[root@ip-172-31-34-145 HCL-Cisco]# make run MAC='44:38:9:ff:ef:57'
+[root@ip-172-31-34-145 HCL-Cisco]# `` make run MAC='44:38:9:ff:ef:57'`` 
 
 docker stop mac-customer
 
