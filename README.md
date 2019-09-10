@@ -44,7 +44,7 @@ docker run --name mac-customer -d mac-customer /usr/nvaka/bin/mac-customer.py 44
 
 docker logs -f mac-customer
 
-Cumulus Networks, Inc
+`` Cumulus Networks, Inc`` 
 
 
 Sample run with invalid MAC:
@@ -72,6 +72,6 @@ docker run --name mac-customer -d mac-customer /usr/nvaka/bin/mac-customer.py 44
 
 docker logs -f mac-customer
 
-None
+`` None`` 
 
 [root@ip-172-31-34-145 HCL-Cisco]#
