@@ -8,11 +8,15 @@ Linux machine with make installed and docker engine running
 
 How to use:
 ---------------------------
-Build a docker images out of the source code:
-Command: make build
+Build a docker image out of the source code:
+Command:
 
-Run the docker container with MAC:
-Command: make run MAC='44:38:39:ff:ef:57'
+make build
+
+Run the docker container along with a MAC address:
+Command:
+
+make run MAC='44:38:39:ff:ef:57'
 
 Test out put:
 ---------------------------
