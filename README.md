@@ -11,12 +11,12 @@ How to use:
 Build a docker image out of the source code:
 Command:
 
-make build
+``make build`` 
 
 Run the docker container along with a MAC address:
 Command:
 
-make run MAC='44:38:39:ff:ef:57'
+`` make run MAC='44:38:39:ff:ef:57' `` 
 
 Test out put:
 ---------------------------
